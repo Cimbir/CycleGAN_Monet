@@ -93,3 +93,9 @@ The project uses **Weights & Biases** for comprehensive experiment tracking:
 ### `model_unet.ipynb` - UNet Experiments (Main working notebook)
 
 ### `model_old_arch.ipynb` - Legacy Experiments
+
+## Report
+
+[View report here](https://wandb.ai/dachis-none/monet/reports/I-m-Something-of-a-Painter-Myself--VmlldzoxNTQ4MjI3Mw)
+
+P.S. Below are the graphs grouped by experiments or similarity. Names describe why they are grouped
