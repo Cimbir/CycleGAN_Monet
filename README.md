@@ -6,8 +6,8 @@ This repository contains implementations of CycleGAN for image-to-image translat
 
 ```
 ├── README.md
-├── model.ipynb              # Main CycleGAN implementation (ResNet-based)
-├── model_unet.ipynb         # UNet-based CycleGAN implementation  
+├── model.ipynb              # General CycleGAN implementation
+├── model_unet.ipynb         # UNet-based CycleGAN implementation (Main notebook)  
 └── model_old_arch.ipynb     # Legacy architecture experiments
 ```
 
