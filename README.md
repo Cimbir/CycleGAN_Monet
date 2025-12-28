@@ -98,4 +98,4 @@ The project uses **Weights & Biases** for comprehensive experiment tracking:
 
 [View report here](https://wandb.ai/dachis-none/monet/reports/I-m-Something-of-a-Painter-Myself--VmlldzoxNTQ4MjI3Mw)
 
-P.S. Below are the graphs grouped by experiments or similarity. Names describe why they are grouped
+P.S. Below are the graphs grouped by experiments or similarity. Names describe why they are groupe. Each run contains description about what I'm changing for that run compared to the previous run
