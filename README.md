@@ -53,7 +53,7 @@ This project implements **CycleGAN** (Cycle-Consistent Adversarial Networks) for
   - Instance normalization
   - No normalization in first layer for stability
 
-## 🔧 Implementation Highlights
+## Implementation Highlights
 
 ### Artifact Solutions
 The implementation includes solutions for common GAN artifacts:
@@ -69,23 +69,6 @@ The implementation includes solutions for common GAN artifacts:
 3. **Edge Fading**:
    - Reflection padding throughout the network
    - Proper normalization handling
-
-### Training Features
-- **Learning Rate Scheduling**: Linear decay after half the training epochs
-- **Fake Sample Buffer**: Discriminator history buffer for stable training
-- **Multiple Loss Components**:
-  - Adversarial loss (LSGAN/Hinge/Vanilla)
-  - Cycle consistency loss (L1)
-  - Identity preservation loss (L1)
-
-## Training Configuration
-
-### Loss Weights
-- **Cycle Consistency**: 10.0 (most important for reconstruction)
-- **Identity Preservation**: 5.0 (maintains color distribution)
-- **Adversarial**: 1.0 (generates realistic outputs)
-
-## Usage
 
 ## Experiment Tracking
 
